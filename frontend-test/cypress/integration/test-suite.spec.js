@@ -4,6 +4,7 @@ describe('', function(){
     // This is a test case
     it('Perform valid login', function(){
         cy.visit('http://localhost:3000')
+<<<<<<< HEAD
         cy.title().should('include', 'Hotel')
         cy.contains('Login')
         cy.get(':nth-child(1) > input').type('tester01')
@@ -12,5 +13,7 @@ describe('', function(){
         cy.contains('Tester Hotel Overview')
         cy.get('.user > .btn').click()
         cy.contains('Login')
+=======
+>>>>>>> 0a3f77946d0b7882591ab613947edd611aa97100
     })
 })
