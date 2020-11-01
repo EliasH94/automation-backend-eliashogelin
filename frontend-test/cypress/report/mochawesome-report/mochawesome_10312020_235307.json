@@ -1,0 +1,279 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-31T22:52:54.501Z",
+    "end": "2020-10-31T22:53:07.151Z",
+    "duration": 12650,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "029b6b41-138d-4da9-abd2-e1a4808d5e52",
+      "title": "",
+      "fullFile": "cypress/integration/regression-page.spec.js",
+      "file": "cypress/integration/regression-page.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f32af527-357d-442d-add7-d748b0bc317f",
+          "title": "Test suite Index",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Perform login and logout",
+              "fullTitle": "Test suite Index Perform login and logout",
+              "timedOut": null,
+              "duration": 2470,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFuncs.performLogin(cy, target.username, target.password, 'Tester Hotel Overview');\ndashboardFuncs.performLogout(cy, 'Login');",
+              "err": {},
+              "uuid": "127c0f18-de5b-4e6a-8b63-fdb8f2e81df8",
+              "parentUUID": "f32af527-357d-442d-add7-d748b0bc317f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Perform invalid login",
+              "fullTitle": "Test suite Index Perform invalid login",
+              "timedOut": null,
+              "duration": 1358,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFuncs.performLogin(cy, target.username, target.invalidPassword, 'Bad username or password');",
+              "err": {},
+              "uuid": "7bf2951a-5432-4504-a61c-3e28551a0791",
+              "parentUUID": "f32af527-357d-442d-add7-d748b0bc317f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "127c0f18-de5b-4e6a-8b63-fdb8f2e81df8",
+            "7bf2951a-5432-4504-a61c-3e28551a0791"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3828,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8c5f68b9-8bb5-4271-a7ea-2192d0605bc7",
+          "title": "Test suite Dashboard",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visit Room Page",
+              "fullTitle": "Test suite Dashboard Visit Room Page",
+              "timedOut": null,
+              "duration": 2113,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardFuncs.visitRoomPage(cy, 'Rooms');",
+              "err": {},
+              "uuid": "66a46c88-83e5-4ee9-8310-9fd4235941aa",
+              "parentUUID": "8c5f68b9-8bb5-4271-a7ea-2192d0605bc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visit Client Page",
+              "fullTitle": "Test suite Dashboard Visit Client Page",
+              "timedOut": null,
+              "duration": 275,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardFuncs.visitClientPage(cy, 'Client');",
+              "err": {},
+              "uuid": "ce10af3f-d297-499c-98bd-553a0311b94d",
+              "parentUUID": "8c5f68b9-8bb5-4271-a7ea-2192d0605bc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visit Bill Page",
+              "fullTitle": "Test suite Dashboard Visit Bill Page",
+              "timedOut": null,
+              "duration": 248,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardFuncs.visitBillPage(cy, 'Bill');",
+              "err": {},
+              "uuid": "0c59e5aa-7e1a-460d-af50-b7ad43f673bc",
+              "parentUUID": "8c5f68b9-8bb5-4271-a7ea-2192d0605bc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visit Reservation Page",
+              "fullTitle": "Test suite Dashboard Visit Reservation Page",
+              "timedOut": null,
+              "duration": 452,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardFuncs.visitReservePage(cy, 'Reservation');",
+              "err": {},
+              "uuid": "21f89080-c5b3-4416-bf39-5b7996711a66",
+              "parentUUID": "8c5f68b9-8bb5-4271-a7ea-2192d0605bc7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "66a46c88-83e5-4ee9-8310-9fd4235941aa",
+            "ce10af3f-d297-499c-98bd-553a0311b94d",
+            "0c59e5aa-7e1a-460d-af50-b7ad43f673bc",
+            "21f89080-c5b3-4416-bf39-5b7996711a66"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3088,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "53a2deeb-2f13-473d-817d-f299f22133d1",
+          "title": "Create & Delete Room",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create Room",
+              "fullTitle": "Create & Delete Room Create Room",
+              "timedOut": null,
+              "duration": 1938,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dashboardFuncs.visitRoomPage(cy, 'Rooms');\nroomFuncs.createRoom(cy, target.roomNumber);",
+              "err": {},
+              "uuid": "8d30911f-7382-4c43-9d0f-db6ea1f691e7",
+              "parentUUID": "53a2deeb-2f13-473d-817d-f299f22133d1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete Room",
+              "fullTitle": "Create & Delete Room Delete Room",
+              "timedOut": null,
+              "duration": 249,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomFuncs.deleteRoom(cy, target.roomNumber);",
+              "err": {},
+              "uuid": "89ae984f-bcc1-4093-86d2-83dcff9a9e43",
+              "parentUUID": "53a2deeb-2f13-473d-817d-f299f22133d1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8d30911f-7382-4c43-9d0f-db6ea1f691e7",
+            "89ae984f-bcc1-4093-86d2-83dcff9a9e43"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2187,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
