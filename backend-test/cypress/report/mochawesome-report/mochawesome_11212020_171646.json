@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-21T16:16:42.702Z",
+    "end": "2020-11-21T16:16:46.006Z",
+    "duration": 3304,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "78b5f436-cff0-4b1e-87cf-e9f38859829c",
+      "title": "",
+      "fullFile": "cypress/integration/backend-tests.spec.js",
+      "file": "cypress/integration/backend-tests.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2a1906aa-d3ea-4e98-ac0c-31d4049026fa",
+          "title": "Testfall",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create client",
+              "fullTitle": "Testfall Create client",
+              "timedOut": null,
+              "duration": 1272,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelper.createClientRequest(cy);",
+              "err": {},
+              "uuid": "1cb0307c-4460-4eb3-8776-6c28dc059812",
+              "parentUUID": "2a1906aa-d3ea-4e98-ac0c-31d4049026fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get all clients",
+              "fullTitle": "Testfall Get all clients",
+              "timedOut": null,
+              "duration": 613,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelper.getAllClientsRequest(cy);",
+              "err": {},
+              "uuid": "d45a7e75-c71d-4492-a102-c11b35840610",
+              "parentUUID": "2a1906aa-d3ea-4e98-ac0c-31d4049026fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit client",
+              "fullTitle": "Testfall Edit client",
+              "timedOut": null,
+              "duration": 613,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelper.editClient(cy);",
+              "err": {},
+              "uuid": "dfe9e8a0-c4ef-4aa5-917f-0035555eca56",
+              "parentUUID": "2a1906aa-d3ea-4e98-ac0c-31d4049026fa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create and delete client",
+              "fullTitle": "Testfall Create and delete client",
+              "timedOut": null,
+              "duration": 673,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelper.createClientRequestDelete(cy);",
+              "err": {},
+              "uuid": "f8339e5d-3743-4bc1-8780-04f4cc1e3c13",
+              "parentUUID": "2a1906aa-d3ea-4e98-ac0c-31d4049026fa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1cb0307c-4460-4eb3-8776-6c28dc059812",
+            "d45a7e75-c71d-4492-a102-c11b35840610",
+            "dfe9e8a0-c4ef-4aa5-917f-0035555eca56",
+            "f8339e5d-3743-4bc1-8780-04f4cc1e3c13"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3171,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
